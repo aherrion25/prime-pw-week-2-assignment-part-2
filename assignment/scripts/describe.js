@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//  We made a variable called name and set it to 'Dane' as a string.
+// Then we check to see if name is equal to 'Mary'. 'Dane' is not equal to 'Mary', so
+// we console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We set varible called code and set it to 123 as a number.
+// Then we checked to see if code was equal to 123. 123 is equal to 123, so
+// we console.log 'super' which is set from the variable secret 
 //
 
 //CODE
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We have a variable called isStudent and set it to true as a boolean
+// We have a varible called age and set it to 34 as a number 
+// We have a varible called zip and set it to 55407 as a number 
+// We checked to see if isStudent is equal to true and greater than 80000. 55047 is not greater than 80000 , so
+// We checked to see if isStudent is equal to false or if age is less than 30. neither are true, so
+// we checked to if isStudent is equal to true. isStudent is equal to true, so
+//we console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -134,6 +137,8 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - should be let purple = colorOne + colorTwo
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +152,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Fix - const should be changed to let because the time could change.
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +166,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//Fix - no issues found
 
 if(minAge <= age) {
   console.log('no entry');
