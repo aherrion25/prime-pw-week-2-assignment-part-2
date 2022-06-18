@@ -47,6 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We set varible called code and set it to 123 as a number.
 // Then we checked to see if code was equal to 123. 123 is equal to 123, so
+// we run code to see if code * 2 is greater than 250. 246 is not greater than, so
 // we console.log 'super' which is set from the variable secret 
 //
 
@@ -137,10 +138,10 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//FIX - should be let purple = colorOne + colorTwo
+//FIX - should be let colorOne = colorTwo = 'purple'
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = colorTwo = 'purple';
 }
 */
 
@@ -154,7 +155,7 @@ const time = 4;
 
 // Fix - const should be changed to let because the time could change.
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -167,7 +168,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//Fix - no issues found
+//Fix - change <= to >= and also swap the console log statement so it will log out 'enter'
 
 if(minAge <= age) {
   console.log('no entry');
